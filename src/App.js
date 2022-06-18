@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import styled from "styled-components";
+import Filtro from "./components/filtro/filtro";
+import Produtos from "./components/produtos/produtos";
+import Carrinho from "./components/carrinho/carrinho";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="container">
+        <header>
+          <img src="https://uploaddeimagens.com.br/images/003/907/269/full/astro.png?1655503802" />
+          <div>
+            <h1>OutSpaceFit</h1>
+            <h2> As melhores roupas espaciais</h2>
+          </div>
+        </header>
+        <main>
+          <Filtro />
+          <Produtos />
+          <Carrinho />
+        </main>
+        <footer>OutSpaceFit - Alguns direitos reservados</footer>
+      </div>
+    );
+  }
 }
 
 export default App;
