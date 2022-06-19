@@ -1,11 +1,11 @@
 <h1 align="center">OutSpaceFit🚀</h1>
 
 
-<h4 align="center">A Atrodev Store é um e-commerce de vendas de Trajes Espaciais</h4>
+<h4 align="center">A OutSpaceFit é um e-commerce de vendas de Trajes Espaciais</h4>
 
 
 ### Link Surge
- (https://annoying-sock.surge.sh/)
+ https://annoying-sock.surge.sh
 
 
 
